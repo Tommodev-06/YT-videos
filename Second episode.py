@@ -15,7 +15,6 @@ async def test(ctx):
 client.run("bot-token")
 
 # Slash command with option
-
 import diskord
 from diskord.ext import commands
 
