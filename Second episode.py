@@ -24,7 +24,7 @@ client=commands.Bot(command_prefix="t!")
 async def on_ready():
     print(f"{client.user} is online")
 
-@client.slash_command(description="First slash command", guild_ids=[your-guild-id]) # the ID is an int. not a str
+@client.slash_command(description="First slash command", guild_ids=[your-guild-id]) # the ID is an int, not a str
 @diskord.application.option("message", description="Message to send")
 async def test(ctx, *, message: str):
     await ctx.send(f"Message: ```{message}```")
