@@ -1,4 +1,3 @@
-import diskord
 from diskord.ext import commands
 
 client=commands.Bot(command_prefix="t!")
